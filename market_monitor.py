@@ -19,7 +19,7 @@ def send_telegram(message):
         print(f"텔레그램 전송 실패: {e}")
 
 def main():
-    exchange = ccxt.binance()
+    exchange = ccxt.bybit()
     symbols = ['BTC/USDT', 'XRP/USDT']
     reports = []
 
